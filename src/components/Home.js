@@ -21,7 +21,7 @@ const Home = () => {
     return (
         <section id="profile">
             <div className="section__pic-container">
-                <img src={profilePic} alt="John Doe profile picture" />
+                <img src={profilePic} alt="profile picture" />
             </div>
             <div className="section__text">
                 <p className="section__text__p1">Hello, I'm</p>

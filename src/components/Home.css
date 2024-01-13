@@ -139,7 +139,10 @@ section {
 
 @media screen and (max-width: 600px) {
     .title {
-        width: 100%; /* On small screens, use the full width */
-        font-size: 2rem; /* Adjust font size for smaller screens */
+        width: 100%;
+        font-size: 2rem; 
+    }
+    .section__text__p2 {
+        font-size: 1.25rem;
     }
 }
