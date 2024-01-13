@@ -111,3 +111,13 @@ a:hover{
 .hamburger-icon span:last-child {
     transform: none;
 }
+
+/* Hide desktop navigation and show hamburger navigation on mobile */
+@media screen and (max-width: 900px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+}

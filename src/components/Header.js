@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css'
-import './mediaqueries.css'
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);

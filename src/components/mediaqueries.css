@@ -1,9 +1,0 @@
-/* Hide desktop navigation and show hamburger navigation on screens smaller than 768px */
-@media screen and (max-width: 900px) {
-    #desktop-nav {
-        display: none;
-    }
-    #hamburger-nav {
-        display: flex;
-    }
-}

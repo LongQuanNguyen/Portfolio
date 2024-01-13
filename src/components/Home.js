@@ -1,14 +1,42 @@
+import React, { useState, useEffect } from 'react';
 import './Home.css';
+import profilePic from '../assets/profile-pic.png';
+import linkedinIcon from '../assets/linkedin.png';
+import githubIcon from '../assets/github.png';
+import resume from '../assets/LongQuanNguyen (Tony) Resume.pdf';
 
 const Home = () => {
+    const openInNewTab = (url) => {
+        const newWindow = window.open(url, '_blank', 'noopener,noreferrer');
+        if (newWindow) newWindow.opener = null;
+    };
+
+    // Make name change every 2 seconds
+    const [name, setName] = useState('Long Quan 🇻🇳');
+    useEffect(() => {
+        const interval = setInterval(() => {setName(prevName => prevName === 'Long Quan 🇻🇳' ? 'aka Tony 🇨🇦' : 'Long Quan 🇻🇳');}, 2000);
+        return () => clearInterval(interval);
+    }, []);
+
     return (
-        <div className="home">
-            <div className="home-content">
-                <h1>Long Quan</h1>
-                <h2>Web Developer</h2>
-                <p>Hi, I'm Long! I'm a web developer based in the San Francisco Bay Area.</p>
+        <section id="profile">
+            <div className="section__pic-container">
+                <img src={profilePic} alt="John Doe profile picture" />
             </div>
-        </div>
+            <div className="section__text">
+                <p className="section__text__p1">Hello, I'm</p>
+                <h1 className="title">{name}</h1>
+                <p className="section__text__p2">Computer Scientist</p>
+                <div className="btn-container">
+                    <button className="btn btn-color-2" onClick={() => openInNewTab(resume)}>Download CV</button>
+                    <button className="btn btn-color-1" onClick={() => window.location.href='./#contact'}>Contact Info</button>
+                </div>
+                <div id="socials-container">
+                    <img src={linkedinIcon} alt="My LinkedIn profile" className="icon" onClick={() => openInNewTab('https://www.linkedin.com/in/longquannguyen/')}/>
+                    <img src={githubIcon} alt="My Github profile" className="icon" onClick={() => openInNewTab('https://github.com/LongQuanNguyen')}/>
+                </div>
+            </div>
+        </section>
     );
 }
 
