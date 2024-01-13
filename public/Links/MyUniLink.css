@@ -1,0 +1,147 @@
+body{
+    background-image: url('https://i.imgur.com/F7mReO5.jpg');
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    text-shadow: #000000 0 0 10px;
+    margin: 0 0 0 0;
+    font-size: 25px;
+}
+
+h2{
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 17px;
+    color: bisque;
+    text-shadow: #531717 0 0 5px;
+}
+
+p{
+    margin: 0 0 0 0;
+    padding: 0;
+    text-align: center;
+}
+
+/*Goofy intro pagraph*/
+.intro{
+    margin: 0 0 0 0;
+    font-size: 14px;
+    text-shadow: #000000 0 0 10px;
+}
+
+/* Copy Link to share button*/
+.share{
+    background-color: #6e1e1e;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    border: none;
+    margin: 20px 20px 0 0;
+    border-radius: 50px;
+}
+.share:hover{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+img[alt="share"]{
+    height: 40px;
+    width: auto;
+}
+
+/* Avatar */
+img[alt="avatar"]{
+    height: 150px;
+    width: auto;
+    border-radius:45%;
+    padding: 0;
+    margin: 0px 0px 10px 0px;
+}
+
+/* Vertical conatiner */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    gap: 10px;
+
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+/* Links buttons*/
+.a{
+    width: 100%;
+}
+.link-button button{
+    width: 330px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    border: none;
+    position: relative;
+}
+.link-button button::before{
+    content: "";
+}
+.link-button img{
+    position: absolute;
+    left: 6px; 
+    height: 35px;
+    width: auto;
+}
+.link-button p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #360e0e;
+    margin: 0;
+    padding: 0;
+}
+.link-button button:hover{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+.link-button button:hover p {
+    color: grey;
+}
+
+.copyright{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    font-weight: bold;
+    color: #301209;
+}
+.copyright p{
+    margin: 0;
+    padding: 0;
+}
+
+.intro, .copyright p, h1, h2:hover{
+    cursor: default;
+}

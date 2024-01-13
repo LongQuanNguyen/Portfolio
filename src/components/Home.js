@@ -21,7 +21,7 @@ const Home = () => {
     return (
         <section id="profile">
             <div className="section__pic-container">
-                <img src={profilePic} alt="profile picture" />
+                <img src={profilePic} alt="tony pfp" />
             </div>
             <div className="section__text">
                 <p className="section__text__p1">Hello, I'm</p>
@@ -29,7 +29,7 @@ const Home = () => {
                 <p className="section__text__p2">CompSci Enthusiast</p>
                 <div className="btn-container">
                     <button className="btn btn-color-2" onClick={() => openInNewTab(resume)}>Download CV</button>
-                    <button className="btn btn-color-1" onClick={() => window.location.href='./#contact'}>Contact Info</button>
+                    <button className="btn btn-color-1" onClick={() => window.open('/Links/index.html', '_blank')}>My Links</button>
                 </div>
                 <div id="socials-container">
                     <img src={linkedinIcon} alt="My LinkedIn profile" className="icon" onClick={() => openInNewTab('https://www.linkedin.com/in/longquannguyen/')}/>
