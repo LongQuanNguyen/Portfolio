@@ -26,7 +26,7 @@ const Home = () => {
             <div className="section__text">
                 <p className="section__text__p1">Hello, I'm</p>
                 <h1 className="title">{name}</h1>
-                <p className="section__text__p2">Computer Scientist</p>
+                <p className="section__text__p2">CompSci Enthusiast</p>
                 <div className="btn-container">
                     <button className="btn btn-color-2" onClick={() => openInNewTab(resume)}>Download CV</button>
                     <button className="btn btn-color-1" onClick={() => window.location.href='./#contact'}>Contact Info</button>
