@@ -16,8 +16,8 @@ const Header = () => {
                 <div>
                     <ul className="nav-links">
                         <li><Link to="/">Home</Link></li>
-                        <li><Link to="/projects">Projects</Link></li>
                         <li><Link to="/contact">Contact</Link></li>
+                        <li><Link to="/projects">Projects</Link></li>
                     </ul>
                 </div>
             </nav>
@@ -33,8 +33,8 @@ const Header = () => {
                     <div className={`menu-links ${isOpen ? 'open' : ''}`}>
                         <ul>
                             <li><Link to="/" onClick={toggleMenu}>Home</Link></li>
-                            <li><Link to="/projects" onClick={toggleMenu}>Projects</Link></li>
                             <li><Link to="/contact" onClick={toggleMenu}>Contact</Link></li>
+                            <li><Link to="/projects" onClick={toggleMenu}>Projects</Link></li>
                         </ul>
                     </div>
                 </div>
