@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.031fb168.css",
+    "main.css": "/portfolio/static/css/main.ae665f04.css",
     "main.js": "/portfolio/static/js/main.25d6e1e2.js",
     "static/media/profile-pic.png": "/portfolio/static/media/profile-pic.73924df39f8a1a2269fc.png",
     "static/media/LongQuanNguyen (Tony) Resume.pdf": "/portfolio/static/media/LongQuanNguyen (Tony) Resume.75d732b338f099bb4da1.pdf",
     "static/media/email.png": "/portfolio/static/media/email.761df3bc69bdc631bd2f.png",
     "static/media/linkedin.png": "/portfolio/static/media/linkedin.032cf8a63be2f0f4d425.png",
     "index.html": "/portfolio/index.html",
-    "main.031fb168.css.map": "/portfolio/static/css/main.031fb168.css.map",
+    "main.ae665f04.css.map": "/portfolio/static/css/main.ae665f04.css.map",
     "main.25d6e1e2.js.map": "/portfolio/static/js/main.25d6e1e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.031fb168.css",
+    "static/css/main.ae665f04.css",
     "static/js/main.25d6e1e2.js"
   ]
 }
