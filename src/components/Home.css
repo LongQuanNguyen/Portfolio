@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 40vh;
+    height: 50vh;
 }
 
 .section__pic-container {
@@ -99,8 +99,7 @@
 
 #about {
     position: relative;
-    height: 70vh;
-    margin-top: 10vh;
+    height: 80vh;
     margin-bottom: 10vh;
 }
   
