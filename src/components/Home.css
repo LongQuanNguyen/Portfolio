@@ -97,6 +97,43 @@
     gap: 1rem;
 }
 
+#about {
+    position: relative;
+}
+  
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+  
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+  
+.about-containers {
+    display: flex;
+}
+    
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.default-cursor:hover {
+    cursor: default;
+}
+  
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
 
 /* Optimize for mobile screen */
 @media screen and (max-width: 1200px) {
