@@ -138,8 +138,8 @@
 /* Optimize for mobile screen */
 @media screen and (max-width: 1200px) {
     #profile {
-        height: 90vh;
-        margin-bottom: 6rem;
+        height: 80vh;
+        margin-bottom: 5rem;
     }
 }
 
@@ -163,6 +163,9 @@
 }
 
 @media screen and (max-width: 600px) {
+    #profile {
+        margin-bottom: 2rem;
+    }
     .title {
         width: 100%;
         font-size: 2rem; 

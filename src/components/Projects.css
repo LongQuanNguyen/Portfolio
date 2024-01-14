@@ -1,0 +1,9 @@
+#projects {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section.projects{
+    height: 65vh;
+}
