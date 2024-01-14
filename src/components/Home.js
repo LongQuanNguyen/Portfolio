@@ -32,7 +32,9 @@ const Home = () => {
                     <p className="section__text__p2">CompSci Enthusiast</p>
                     <div className="btn-container">
                         <button className="btn btn-color-2" onClick={() => openInNewTab(resume)}>Download CV</button>
-                        <button className="btn btn-color-1" onClick={() => window.open('/Links/index.html', '_blank')}>My Links</button>
+                        <a href="/portfolio/Links/index.html" target="_blank" rel="noopener noreferrer">
+                            <button className="btn btn-color-1">My Links</button>
+                        </a>
                     </div>
                     <div id="socials-container">
                         <img src={linkedinIcon} alt="My LinkedIn profile" className="icon" onClick={() => openInNewTab('https://www.linkedin.com/in/longquannguyen/')}/>
