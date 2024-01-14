@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 50vh;
+    height: 40vh;
 }
 
 .section__pic-container {
@@ -101,6 +101,7 @@
     position: relative;
     height: 70vh;
     margin-top: 10vh;
+    margin-bottom: 10vh;
 }
   
 .about-containers {
@@ -135,6 +136,14 @@
 .section-container {
     gap: 4rem;
     height: 80%;
+}
+
+@media screen and (min-width:1200px){
+    #about{
+        width: 65%; 
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 /* Optimize for mobile screen */
