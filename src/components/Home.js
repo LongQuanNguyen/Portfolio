@@ -50,12 +50,12 @@ const Home = () => {
                             <div className="details-container">
                                 <img src={interestIcon} alt="Interest icon" className="icon default-cursor"/>
                                 <h3>Interest</h3>
-                                <p>Backend, Cyber Security <br />Software Development</p>
+                                <p>Backend, Cyber Security. <br />Software Development.</p>
                             </div>
                             <div className="details-container">
                                 <img src={educationIcon} alt="Education icon" className="icon default-cursor"/>
                                 <h3>Education</h3>
-                                <p>B.Sc in Computer Science<br />Minor in Mathematics</p>
+                                <p>B.Sc in Computer Science.<br />Minor in Mathematics.</p>
                             </div>
                         </div>
                         <div className="text-container">
