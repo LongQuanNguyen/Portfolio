@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 65vh;
 }
 
 .contact-info-upper-container {

@@ -1,9 +1,12 @@
 #projects {
+    height: 70vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-section.projects{
-    height: 65vh;
+@media screen and (max-width: 600px) {
+    #projects {
+        height: 70vh;
+    }
 }

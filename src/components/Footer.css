@@ -3,13 +3,12 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
     height: 5vh;
     width: 100%;
-    padding-top: 5vh;
-    margin: 3rem 0 1rem 0;
 }
   
-  footer p {
+footer p {
     text-align: center;
     font-size: 10px;
 }
