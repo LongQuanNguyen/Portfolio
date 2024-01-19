@@ -13,7 +13,7 @@ const About = () => {
                             <div className="details-container">
                                 <img src={interestIcon} alt="Interest icon" className="icon default-cursor"/>
                                 <h3>Interest</h3>
-                                <p>Software Development. <br />Systems modeling.</p>
+                                <p>Software Development. <br />Systems Modeling.</p>
                             </div>
                             <div className="details-container">
                                 <img src={educationIcon} alt="Education icon" className="icon default-cursor"/>
