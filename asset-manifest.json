@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.97c04246.css",
-    "main.js": "/portfolio/static/js/main.a4608d77.js",
+    "main.css": "/portfolio/static/css/main.feaf8fc9.css",
+    "main.js": "/portfolio/static/js/main.d5c1afb3.js",
     "static/media/profile-pic.png": "/portfolio/static/media/profile-pic.36a9cb2eae2eb38768ca.png",
     "static/media/LongQuanNguyen (Tony) Resume.pdf": "/portfolio/static/media/LongQuanNguyen (Tony) Resume.eb1a14a84618c192fb4f.pdf",
     "static/media/email.png": "/portfolio/static/media/email.761df3bc69bdc631bd2f.png",
@@ -11,11 +11,11 @@
     "static/media/project_pixel2DGame.png": "/portfolio/static/media/project_pixel2DGame.619f01e0e0451a132dd7.png",
     "static/media/project_finalCountdown.png": "/portfolio/static/media/project_finalCountdown.f2ed63eb7c17f66929e9.png",
     "index.html": "/portfolio/index.html",
-    "main.97c04246.css.map": "/portfolio/static/css/main.97c04246.css.map",
-    "main.a4608d77.js.map": "/portfolio/static/js/main.a4608d77.js.map"
+    "main.feaf8fc9.css.map": "/portfolio/static/css/main.feaf8fc9.css.map",
+    "main.d5c1afb3.js.map": "/portfolio/static/js/main.d5c1afb3.js.map"
   },
   "entrypoints": [
-    "static/css/main.97c04246.css",
-    "static/js/main.a4608d77.js"
+    "static/css/main.feaf8fc9.css",
+    "static/js/main.d5c1afb3.js"
   ]
 }
