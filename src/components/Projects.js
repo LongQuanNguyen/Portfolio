@@ -5,6 +5,7 @@ import gol from '../assets/project_GameOfLife.png';
 import Pixel2D from '../assets/project_pixel2DGame.png';
 import rested from '../assets/project_restaurant.png';
 import bot from '../assets/project_DiscordBot.png';
+import oculus from '../assets/project_Oculus.png';
 
 
 const Projects = () => {
@@ -24,7 +25,7 @@ const Projects = () => {
                 <div className="project-info-container">
                     <img src={Pixel2D} alt="Escape from Spinx" />
                     <div className='project-details'>
-                        <p className='project-link'><a href="#/projects" target="_blank" rel="noopener noreferrer">Escape from Spinx</a></p>
+                        <p className='project-link'><a href="https://github.com/LongQuanNguyen/EscapeFromSpinx" target="_blank" rel="noopener noreferrer">Escape from Spinx</a></p>
                         <p>A 2D top-down pixel game built using C# and Unity engine.</p>
                     </div>
                 </div>
@@ -32,7 +33,7 @@ const Projects = () => {
                 <div className="project-info-container">
                     <img src={rested} alt="RESTED" />
                     <div className='project-details'>
-                        <p className='project-link'><a href="https://git.cs.usask.ca/cmpt370_team33/project" target="_blank" rel="noopener noreferrer">RESTED</a></p>
+                        <p className='project-link'><a href="https://github.com/LongQuanNguyen/RESTED" target="_blank" rel="noopener noreferrer">RESTED</a></p>
                         <p>A restaurant management system built using NodeJS, ReactJS and ExpressJS.</p>
                     </div>
                 </div>
@@ -61,6 +62,13 @@ const Projects = () => {
                     </div>
                 </div>
                     
+                <div className="project-info-container">
+                    <img src={oculus} alt="Oculus" />
+                    <div className='project-details'>
+                        <p className='project-link'><a href="https://github.com/UniversityOfSaskatchewanCMPT371/term-project-2024-team-2" target="_blank" rel="noopener noreferrer">Ocuslus 3D Data Visualization</a></p>
+                        <p>An Oculus-based tool for 3D visualization & manipulation of tabular data, built with WebXR, React Three Fiber and TypeScript.</p>
+                    </div>
+                </div>
             </div>
         </section>
     );
