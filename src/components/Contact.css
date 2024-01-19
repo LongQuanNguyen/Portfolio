@@ -32,6 +32,10 @@
     font-size: larger;
 }
 
+.contact-info-container a:hover {
+    text-decoration: none;
+}
+
 .contact-icon {
     cursor: default;
 }
