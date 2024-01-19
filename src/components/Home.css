@@ -99,25 +99,11 @@
 
 /* Optimize for mobile screen */
 @media screen and (max-width: 1200px) {
-    #profile {
-        height: 80vh;
-        margin-bottom: 5rem;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    #profile,
-    .section-container {
+    #profile{
         display: block;
-    }
-    section,
-    .section-container {
-        height: fit-content;
-    }
-    section {
         margin: 0 5%;
     }
-    .section__pic-container {
+    #profile .section__pic-container {
         width: 275px;
         height: 275px;
         margin: 0 auto 2rem;
@@ -125,14 +111,11 @@
 }
 
 @media screen and (max-width: 600px) {
-    #profile {
-        margin-bottom: 2rem;
-    }
-    .title {
+    #profile .title {
         width: 100%;
         font-size: 2rem; 
     }
-    .section__text__p2 {
+    #profile .section__text__p2 {
         font-size: 1.25rem;
     }
 }

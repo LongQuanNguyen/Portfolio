@@ -1,7 +1,11 @@
-#about {
-    position: relative;
+#about{
+    width: 60%; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    height: fit-content;
 }
-  
+
 .about-containers {
     gap: 2rem;
     margin-bottom: 2rem;
@@ -36,10 +40,25 @@
     height: 80%;
 }
 
-@media screen and (min-width:1200px){
+@media screen and (max-width:1200px){
     #about{
-        width: 60%; 
+        width: 80%; 
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 2rem;
+        height: fit-content;
     }
 }
+
+@media screen and (max-width: 600px) {
+    #about {
+        width: 85%;
+    }
+    .about-containers {
+        gap: 1.2rem;
+    }
+    .details-container {
+        padding: 0.7rem;
+    }
+}
+
