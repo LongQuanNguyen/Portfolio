@@ -34,7 +34,7 @@ const About = () => {
                             exhibiting stochastic features of life; which motivated me to capture these moments through the lens of 
                             the camera.
                             <br/>&emsp;Picking up English is the most rewarding decision I ever made. It doubled the amount of books I could read 
-                            and quadruple the amount of confusions (possible ways of confusions: vi-vi, en-en, vi-en, en-vi). This is perfectly 
+                            and quadruple the amount of confusions (ways to confuse: vi-vi, en-en, vi-en, en-vi). This is perfectly 
                             aligning my insatiable curiosity. Novels and narratives, with immersive worlds and perspectives, captivate me the most.
                             <br/>&emsp;And then there is sport, who would not love the adrenaline rush? The hype, the clutch shots, the swift and 
                             seamless movements, are all encapsulated in the world of basketball. It is the best sport indoors when 
