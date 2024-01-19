@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.74e48ab7.css",
-    "main.js": "/portfolio/static/js/main.6c4131ea.js",
-    "static/media/profile-pic.png": "/portfolio/static/media/profile-pic.73924df39f8a1a2269fc.png",
+    "main.css": "/portfolio/static/css/main.97c04246.css",
+    "main.js": "/portfolio/static/js/main.dfdfed1e.js",
+    "static/media/profile-pic.png": "/portfolio/static/media/profile-pic.36a9cb2eae2eb38768ca.png",
     "static/media/LongQuanNguyen (Tony) Resume.pdf": "/portfolio/static/media/LongQuanNguyen (Tony) Resume.75d732b338f099bb4da1.pdf",
     "static/media/email.png": "/portfolio/static/media/email.761df3bc69bdc631bd2f.png",
     "static/media/linkedin.png": "/portfolio/static/media/linkedin.032cf8a63be2f0f4d425.png",
+    "static/media/project_restaurant.png": "/portfolio/static/media/project_restaurant.bb1c0b763b9c6683a82b.png",
+    "static/media/project_DiscordBot.png": "/portfolio/static/media/project_DiscordBot.d7f7fca1a3c52fa3d56c.png",
+    "static/media/project_pixel2DGame.png": "/portfolio/static/media/project_pixel2DGame.619f01e0e0451a132dd7.png",
+    "static/media/project_finalCountdown.png": "/portfolio/static/media/project_finalCountdown.f2ed63eb7c17f66929e9.png",
     "index.html": "/portfolio/index.html",
-    "main.74e48ab7.css.map": "/portfolio/static/css/main.74e48ab7.css.map",
-    "main.6c4131ea.js.map": "/portfolio/static/js/main.6c4131ea.js.map"
+    "main.97c04246.css.map": "/portfolio/static/css/main.97c04246.css.map",
+    "main.dfdfed1e.js.map": "/portfolio/static/js/main.dfdfed1e.js.map"
   },
   "entrypoints": [
-    "static/css/main.74e48ab7.css",
-    "static/js/main.6c4131ea.js"
+    "static/css/main.97c04246.css",
+    "static/js/main.dfdfed1e.js"
   ]
 }
