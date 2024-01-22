@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.feaf8fc9.css",
-    "main.js": "/portfolio/static/js/main.66da4626.js",
+    "main.js": "/portfolio/static/js/main.13ea1638.js",
     "static/media/profile-pic.png": "/portfolio/static/media/profile-pic.36a9cb2eae2eb38768ca.png",
-    "static/media/LongQuanNguyen (Tony) Resume.pdf": "/portfolio/static/media/LongQuanNguyen (Tony) Resume.eb1a14a84618c192fb4f.pdf",
+    "static/media/LongQuanNguyen (Tony) Resume.pdf": "/portfolio/static/media/LongQuanNguyen (Tony) Resume.b48e2648c9587ff00446.pdf",
     "static/media/email.png": "/portfolio/static/media/email.761df3bc69bdc631bd2f.png",
     "static/media/linkedin.png": "/portfolio/static/media/linkedin.032cf8a63be2f0f4d425.png",
     "static/media/project_restaurant.png": "/portfolio/static/media/project_restaurant.bb1c0b763b9c6683a82b.png",
@@ -12,10 +12,10 @@
     "static/media/project_finalCountdown.png": "/portfolio/static/media/project_finalCountdown.f2ed63eb7c17f66929e9.png",
     "index.html": "/portfolio/index.html",
     "main.feaf8fc9.css.map": "/portfolio/static/css/main.feaf8fc9.css.map",
-    "main.66da4626.js.map": "/portfolio/static/js/main.66da4626.js.map"
+    "main.13ea1638.js.map": "/portfolio/static/js/main.13ea1638.js.map"
   },
   "entrypoints": [
     "static/css/main.feaf8fc9.css",
-    "static/js/main.66da4626.js"
+    "static/js/main.13ea1638.js"
   ]
 }
